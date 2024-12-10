@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Session - Tyler's Tutoring</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your main stylesheet -->
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Book Your Tutoring Session</h1>
+            <p>Choose the session that works best for you, and let's start learning!</p>
+        </div>
+    </header>
+
+    <section id="session-prices" class="pricing">
+        <div class="container">
+            <h2>Session Options & Prices</h2>
+            <div class="pricing-table">
+                <div class="pricing-item">
+                    <h3>15-Minute Session</h3>
+                    <p>Quick, targeted assistance for specific questions.</p>
+                    <span class="price">$15</span>
+                </div>
+                <div class="pricing-item">
+                    <h3>30-Minute Session</h3>
+                    <p>Great for focused learning on one or two topics.</p>
+                    <span class="price">$25</span>
+                </div>
+                <div class="pricing-item">
+                    <h3>1-Hour Session</h3>
+                    <p>Ideal for comprehensive tutoring and deeper understanding.</p>
+                    <span class="price">$40</span>
+                </div>
+                <div class="pricing-item">
+                    <h3>1-Hour Group Session</h3>
+                    <p>Collaborate and learn with peers (up to 5 people).</p>
+                    <span class="price">$30 per person</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking-form" class="booking">
+        <div class="container">
+            <h2>Book Your Session</h2>
+            <form action="/submit-booking" method="POST">
+            
+
+                <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/tylergore11?hide_landing_page_details=1&hide_gdpr_banner=1&primary_color=ff8100" style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                <!-- Calendly inline widget end -->
+
+                
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>All tutoring sessions DO NOT COUNT towards continuing education or any certifications.
+            </p>
+            <p>These tutoring sessions are designed only to assist and prepare EMT students 
+                in the learning and preperation of the NREMT test in a one on one learning format</p>
+        </div>
+    </footer>
+
+</body>
+</html>
